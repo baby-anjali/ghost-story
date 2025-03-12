@@ -8,6 +8,19 @@ body {
   font-family: sans-serif;
 }
 
+.ghost.game {
+  box-shadow: 2px 2px 10px aqua;
+}
+
+a {
+  color: cadetblue;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 .ghost-place {
   width: 400px;
   height: 400px;
