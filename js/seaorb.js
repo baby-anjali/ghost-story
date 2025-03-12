@@ -3,7 +3,7 @@ const randomNumber = () => Math.ceil(Math.random() * 100);
 const orbChat = [
   "You have found me.",
   "This is where the journey ends...",
-  `<a href='./ending.html'>so long!</a>`,
+  `<a href='./ending.html'>bye bye!</a>`,
 ];
 
 const generateOrbPosition = () => ({
