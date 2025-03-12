@@ -9,16 +9,6 @@
     <div class="reveal">
       <p id="farewell">Thank you for playing! It was great having you here!</p>
     </div>
-    <script>
-      const bouncer = document.querySelector(".bouncer");
-      bouncer.addEventListener("animationend", () => {
-        bouncer.style.visibility = "hidden";
-        document.querySelector(".reveal").classList.add("active");
-      });
-
-      setTimeout(() => {
-        const area = document.querySelector(".active");
-      }, 5000);
-    </script>
+    <script src="../js/ending.js"></script>
   </body>
 </html>
